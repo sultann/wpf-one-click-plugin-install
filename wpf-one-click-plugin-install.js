@@ -18,15 +18,15 @@
                 callback: function(data, i) {
                    // var propChanged = data.props[i];
                     //var newValue = data.vals[i];
-                    var el = this;
-                    var el$ = $(this);
-                    if(el$.hasClass('activate-now')){
-                        var link = el$.attr('href');
+                    // var el = this;
+                    var $el = $(this);
+                    if($el.hasClass('activate-now')){
+                        var link = $el.attr('href');
                         $.get(link, function(data, status){
                             if(status == 'success'){
-                                el$.text('Activated');
+                                var button = '<button type="button" class="button button-disabled" disabled="disabled">Active</button>';
+                                $el.replaceWith(button);
                             }
-                            console.log("Data: " + data + "\nStatus: " + status);
                         });
 
                     }
