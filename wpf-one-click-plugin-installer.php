@@ -16,7 +16,7 @@ function wpf_register_scripts($hook) {
 	if($hook !== 'plugin-install.php'){
 		return;
 	}
-	wp_enqueue_script( 'wpf-one-click-plugin-install', plugins_url('wpf-one-click-plugin-install.js', __FILE__), array('jquery'), '', false );
+	wp_enqueue_script( 'wpf-one-click-plugin-installer', plugins_url('wpf-one-click-plugin-installer.js', __FILE__), array('jquery'), '', false );
 	wp_enqueue_script( 'jquery-watch', plugins_url('jquery-watch.min.js', __FILE__), array('jquery'), '', false );
 }
 
