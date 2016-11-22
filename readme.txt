@@ -1,4 +1,4 @@
-=== WPF One Click Plugin Install ===
+=== WPF One Click Plugin Installer ===
 Contributors: manikmist09
 Tags: multiple plugins install
 Requires at least: 4.6.0
