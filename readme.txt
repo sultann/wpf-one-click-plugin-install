@@ -3,6 +3,7 @@ Contributors: manikmist09
 Tags: multiple plugins install
 Requires at least: 4.6.0
 Tested up to: 4.6.1
+Stable tag: 1.0
 License: GPL version 2 or later
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
