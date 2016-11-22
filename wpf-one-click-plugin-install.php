@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: WPF One Click Install
+Plugin Name: WPF One Click Plugin Install
 Plugin URI: http://wordpress.org/extend/plugins/wordpress-importer/
-Description: A simple WordPress plugin to install & activate a plugin with only one click.
+Description: A simple WordPress plugin to install & activate a plugin from plugin installation page with only one click.
 Author: manikmist09
 Author URI: http://manik.me/
 Version: 1.0
