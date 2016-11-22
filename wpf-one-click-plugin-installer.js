@@ -2,14 +2,11 @@
 ;(function ($) {
     $(document).ready(function () {
         'use strict';
-        console.log('working');
+   
         var all_plugins = $('.plugin-action-buttons .install-now');
 
         all_plugins.text('Install & Activate');
-        all_plugins.on('click', function () {
-
-        });
-
+  
         all_plugins.each(function () {
             $(this).watch({
                 properties: "attr_class",
